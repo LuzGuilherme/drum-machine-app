@@ -48,8 +48,8 @@ const Clips = [
     },
 ]
 
-const PlayClip = (index) =>{
-    return Clips[index];
+const PlayClip = () =>{
+    return Clips[3].src;
 }
 
 export default PlayClip;

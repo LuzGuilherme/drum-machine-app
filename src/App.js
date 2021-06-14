@@ -2,7 +2,6 @@ import React from "react";
 import DrumPad from "./DrumPad";
 import { Component } from "react";
 import ReactHowler from "react-howler";
-import PlayClip from "./Clips";
 
 class App extends Component {
     constructor(props) {
