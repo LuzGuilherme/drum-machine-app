@@ -59,7 +59,7 @@ const audioClips = [
 
   function DrumPad(){
       return ( 
-          <div>
+          <div className="pad-container">
             {audioClips.map((clip) => 
                 <Pad key={clip.id} clip={clip}/>
             )}
@@ -90,7 +90,7 @@ function Pad ({clip}) {
 
     return (
         <div>
-            <button onClick={playSound}>
+            <button className="pad-button" onClick={playSound}>
                 <audio id={clip.keyTrigger} src={clip.url} />
                 {clip.keyTrigger}
             </button>
