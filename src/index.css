@@ -1,5 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap');
+
+*{
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: honeydew;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.title {
+
+}
+
 .pad-button {
-    background-color: green;
+    background-color: rgb(48, 167, 48);
     border: none;
     color: white;
     padding: 40px;
@@ -16,14 +35,15 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
-    background-color: beige;
+    background-color: rgba(129, 129, 129, 0.2);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
 }
 
-.pad-button:focus {
+.pad-button:active {
     background-color: coral;
 }
